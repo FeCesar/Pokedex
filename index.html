@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="container">
+        <article class="cards">
+            <div class="card">
+                <header class="title">
+                    <h2>Bulbassauro</h2>
+                    <small># 1</small>
+                </header>
+
+                <figure><img src="https://i.pinimg.com/originals/3b/78/47/3b7847675982776e5219e12a680ecd84.png" alt=""></figure>
+
+                <div class="type">
+                    <p>Grass</p>
+                </div>
+
+                <button class="favorite">
+                    <div class="heart"></div>
+                </button>
+            </div>
+
+            <div class="card">
+                <header class="title">
+                    <h2>Bulbassauro</h2>
+                    <small># 1</small>
+                </header>
+
+                <figure><img src="https://i.pinimg.com/originals/3b/78/47/3b7847675982776e5219e12a680ecd84.png" alt=""></figure>
+
+                <div class="type">
+                    <p>Grass</p>
+                </div>
+
+                <button class="favorite">
+                    <div class="heart"></div>
+                </button>
+            </div>
+
+            <div class="card">
+                <header class="title">
+                    <h2>bulbassauro</h2>
+                    <small># 1</small>
+                </header>
+
+                <figure><img src="https://i.pinimg.com/originals/3b/78/47/3b7847675982776e5219e12a680ecd84.png" alt=""></figure>
+
+                <div class="type">
+                    <p>Grass</p>
+                </div>
+
+                <button class="favorite">
+                    <div class="heart"></div>
+                </button>
+            </div>
+
+            <div class="card">
+                <header class="title">
+                    <h2>Bulbassauro</h2>
+                    <small># 1</small>
+                </header>
+
+                <figure><img src="https://i.pinimg.com/originals/3b/78/47/3b7847675982776e5219e12a680ecd84.png" alt=""></figure>
+
+                <div class="type">
+                    <p>Grass</p>
+                </div>
+
+                <button class="favorite">
+                    <div class="heart"></div>
+                </button>
+            </div>
+        </article>
+
+    </main>
+
+<script>
+
+    const cards = document.querySelector('.cards');
+    const card = document.querySelector('.card');
+
+    for(let i = 0; i < 30; i++) {
+        const clone = card.cloneNode(true);
+        cards.appendChild(clone)
+    }
+
+    // CLONAR
+</script>
+
+</body>
+</html>
